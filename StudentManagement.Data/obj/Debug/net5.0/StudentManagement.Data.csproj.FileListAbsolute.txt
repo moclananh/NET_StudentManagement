@@ -1,0 +1,30 @@
+D:\MyCourses\ThanhTH_StudentManagement\StudentManagement.Data\bin\Debug\net5.0\StudentManagement.Data.deps.json
+D:\MyCourses\ThanhTH_StudentManagement\StudentManagement.Data\bin\Debug\net5.0\StudentManagement.Data.runtimeconfig.json
+D:\MyCourses\ThanhTH_StudentManagement\StudentManagement.Data\bin\Debug\net5.0\StudentManagement.Data.runtimeconfig.dev.json
+D:\MyCourses\ThanhTH_StudentManagement\StudentManagement.Data\bin\Debug\net5.0\StudentManagement.Data.dll
+D:\MyCourses\ThanhTH_StudentManagement\StudentManagement.Data\bin\Debug\net5.0\StudentManagement.Data.pdb
+D:\MyCourses\ThanhTH_StudentManagement\StudentManagement.Data\obj\Debug\net5.0\StudentManagement.Data.csproj.AssemblyReference.cache
+D:\MyCourses\ThanhTH_StudentManagement\StudentManagement.Data\obj\Debug\net5.0\StudentManagement.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyCourses\ThanhTH_StudentManagement\StudentManagement.Data\obj\Debug\net5.0\StudentManagement.Data.AssemblyInfoInputs.cache
+D:\MyCourses\ThanhTH_StudentManagement\StudentManagement.Data\obj\Debug\net5.0\StudentManagement.Data.AssemblyInfo.cs
+D:\MyCourses\ThanhTH_StudentManagement\StudentManagement.Data\obj\Debug\net5.0\StudentManagement.Data.csproj.CoreCompileInputs.cache
+D:\MyCourses\ThanhTH_StudentManagement\StudentManagement.Data\obj\Debug\net5.0\StudentManagement.Data.dll
+D:\MyCourses\ThanhTH_StudentManagement\StudentManagement.Data\obj\Debug\net5.0\refint\StudentManagement.Data.dll
+D:\MyCourses\ThanhTH_StudentManagement\StudentManagement.Data\obj\Debug\net5.0\StudentManagement.Data.pdb
+D:\MyCourses\ThanhTH_StudentManagement\StudentManagement.Data\obj\Debug\net5.0\StudentManagement.Data.genruntimeconfig.cache
+D:\MyCourses\ThanhTH_StudentManagement\StudentManagement.Data\obj\Debug\net5.0\ref\StudentManagement.Data.dll
+D:\MyCourses\ThanhTH_StudentManagement - Copy\StudentManagement.Data\bin\Debug\net5.0\StudentManagement.Data.deps.json
+D:\MyCourses\ThanhTH_StudentManagement - Copy\StudentManagement.Data\bin\Debug\net5.0\StudentManagement.Data.runtimeconfig.json
+D:\MyCourses\ThanhTH_StudentManagement - Copy\StudentManagement.Data\bin\Debug\net5.0\StudentManagement.Data.runtimeconfig.dev.json
+D:\MyCourses\ThanhTH_StudentManagement - Copy\StudentManagement.Data\bin\Debug\net5.0\StudentManagement.Data.dll
+D:\MyCourses\ThanhTH_StudentManagement - Copy\StudentManagement.Data\bin\Debug\net5.0\StudentManagement.Data.pdb
+D:\MyCourses\ThanhTH_StudentManagement - Copy\StudentManagement.Data\obj\Debug\net5.0\StudentManagement.Data.csproj.AssemblyReference.cache
+D:\MyCourses\ThanhTH_StudentManagement - Copy\StudentManagement.Data\obj\Debug\net5.0\StudentManagement.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyCourses\ThanhTH_StudentManagement - Copy\StudentManagement.Data\obj\Debug\net5.0\StudentManagement.Data.AssemblyInfoInputs.cache
+D:\MyCourses\ThanhTH_StudentManagement - Copy\StudentManagement.Data\obj\Debug\net5.0\StudentManagement.Data.AssemblyInfo.cs
+D:\MyCourses\ThanhTH_StudentManagement - Copy\StudentManagement.Data\obj\Debug\net5.0\StudentManagement.Data.csproj.CoreCompileInputs.cache
+D:\MyCourses\ThanhTH_StudentManagement - Copy\StudentManagement.Data\obj\Debug\net5.0\StudentManagement.Data.dll
+D:\MyCourses\ThanhTH_StudentManagement - Copy\StudentManagement.Data\obj\Debug\net5.0\refint\StudentManagement.Data.dll
+D:\MyCourses\ThanhTH_StudentManagement - Copy\StudentManagement.Data\obj\Debug\net5.0\StudentManagement.Data.pdb
+D:\MyCourses\ThanhTH_StudentManagement - Copy\StudentManagement.Data\obj\Debug\net5.0\StudentManagement.Data.genruntimeconfig.cache
+D:\MyCourses\ThanhTH_StudentManagement - Copy\StudentManagement.Data\obj\Debug\net5.0\ref\StudentManagement.Data.dll

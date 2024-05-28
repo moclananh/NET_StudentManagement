@@ -1,10 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using StudentManagement.Data.FluentConfigurations;
 using StudentManagement.Data.Models;
+using System;
 
 namespace StudentManagement.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<AppUser, AppRole, Guid>
     {
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
@@ -14,6 +17,7 @@ namespace StudentManagement.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<AppUser> AppUsers { get; set; }
         public DbSet<ProductInCategory> ProductInCategories { get; set; }
+        public DbSet<AppConfig> AppConfigs { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -21,6 +25,16 @@ namespace StudentManagement.Data
             modelBuilder.ApplyConfiguration(new ProductConfig());
             modelBuilder.ApplyConfiguration(new CategoryConfig());
             modelBuilder.ApplyConfiguration(new ProductInCategoryConfig());
+            modelBuilder.ApplyConfiguration(new AppConfigConfig());
+            modelBuilder.ApplyConfiguration(new AppRoleConfig());
+
+            //config for IdentityDbContext
+            modelBuilder.Entity<IdentityUserClaim<Guid>>().ToTable("AppUserClaims");
+            modelBuilder.Entity<IdentityUserRole<Guid>>().ToTable("AppUserRoles").HasKey(x => new { x.UserId, x.RoleId });
+            modelBuilder.Entity<IdentityUserLogin<Guid>>().ToTable("AppUserLogins").HasKey(x => x.UserId);
+
+            modelBuilder.Entity<IdentityRoleClaim<Guid>>().ToTable("AppRoleClaims");
+            modelBuilder.Entity<IdentityUserToken<Guid>>().ToTable("AppUserTokens").HasKey(x => x.UserId);
         }
 
     }

@@ -1,19 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 
 namespace StudentManagement.Data.Models
 {
-    public class AppUser
+    public class AppUser : IdentityUser<Guid>
     {
-        public Guid Id { get; set; }
-        public string UserName { get; set; }
-        public string Password { get; set; }
-        [EmailAddress]
-        public string Email { get; set; }
+        public string PhoneNumber { get; set; }
         public string VerifyCode { get; set; }
         public bool AccountStatus { get; set; } = false;
     }

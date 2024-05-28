@@ -28,3 +28,19 @@ D:\MyCourses\ThanhTH_StudentManagement - Copy\StudentManagement.Application\obj\
 D:\MyCourses\ThanhTH_StudentManagement - Copy\StudentManagement.Application\obj\Debug\net5.0\refint\StudentManagement.Application.dll
 D:\MyCourses\ThanhTH_StudentManagement - Copy\StudentManagement.Application\obj\Debug\net5.0\StudentManagement.Application.pdb
 D:\MyCourses\ThanhTH_StudentManagement - Copy\StudentManagement.Application\obj\Debug\net5.0\ref\StudentManagement.Application.dll
+D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.Application\bin\Debug\net5.0\StudentManagement.Application.deps.json
+D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.Application\bin\Debug\net5.0\StudentManagement.Application.dll
+D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.Application\bin\Debug\net5.0\StudentManagement.Application.pdb
+D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.Application\bin\Debug\net5.0\StudentManagement.Data.dll
+D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.Application\bin\Debug\net5.0\StudentManagement.Data.pdb
+D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.Application\obj\Debug\net5.0\StudentManagement.Application.csproj.AssemblyReference.cache
+D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.Application\obj\Debug\net5.0\StudentManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.Application\obj\Debug\net5.0\StudentManagement.Application.AssemblyInfoInputs.cache
+D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.Application\obj\Debug\net5.0\StudentManagement.Application.AssemblyInfo.cs
+D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.Application\obj\Debug\net5.0\StudentManagement.Application.csproj.CoreCompileInputs.cache
+D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.Application\obj\Debug\net5.0\StudentManagement.Application.sourcelink.json
+D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.Application\obj\Debug\net5.0\StudentManagement.Application.csproj.CopyComplete
+D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.Application\obj\Debug\net5.0\StudentManagement.Application.dll
+D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.Application\obj\Debug\net5.0\refint\StudentManagement.Application.dll
+D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.Application\obj\Debug\net5.0\StudentManagement.Application.pdb
+D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.Application\obj\Debug\net5.0\ref\StudentManagement.Application.dll

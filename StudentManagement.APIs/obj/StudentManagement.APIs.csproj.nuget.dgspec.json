@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyCourses\\ThanhTH_StudentManagement - Copy\\StudentManagement.APIs\\StudentManagement.APIs.csproj": {}
+    "D:\\MyCourses\\ThanhTH_StudentManagements\\StudentManagement.APIs\\StudentManagement.APIs.csproj": {}
   },
   "projects": {
-    "D:\\MyCourses\\ThanhTH_StudentManagement - Copy\\StudentManagement.APIs\\StudentManagement.APIs.csproj": {
+    "D:\\MyCourses\\ThanhTH_StudentManagements\\StudentManagement.APIs\\StudentManagement.APIs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyCourses\\ThanhTH_StudentManagement - Copy\\StudentManagement.APIs\\StudentManagement.APIs.csproj",
+        "projectUniqueName": "D:\\MyCourses\\ThanhTH_StudentManagements\\StudentManagement.APIs\\StudentManagement.APIs.csproj",
         "projectName": "StudentManagement.APIs",
-        "projectPath": "D:\\MyCourses\\ThanhTH_StudentManagement - Copy\\StudentManagement.APIs\\StudentManagement.APIs.csproj",
+        "projectPath": "D:\\MyCourses\\ThanhTH_StudentManagements\\StudentManagement.APIs\\StudentManagement.APIs.csproj",
         "packagesPath": "C:\\Users\\Kristino\\.nuget\\packages\\",
-        "outputPath": "D:\\MyCourses\\ThanhTH_StudentManagement - Copy\\StudentManagement.APIs\\obj\\",
+        "outputPath": "D:\\MyCourses\\ThanhTH_StudentManagements\\StudentManagement.APIs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MyCourses\\ThanhTH_StudentManagement - Copy\\StudentManagement.Application\\StudentManagement.Application.csproj": {
-                "projectPath": "D:\\MyCourses\\ThanhTH_StudentManagement - Copy\\StudentManagement.Application\\StudentManagement.Application.csproj"
+              "D:\\MyCourses\\ThanhTH_StudentManagements\\StudentManagement.Application\\StudentManagement.Application.csproj": {
+                "projectPath": "D:\\MyCourses\\ThanhTH_StudentManagements\\StudentManagement.Application\\StudentManagement.Application.csproj"
               },
-              "D:\\MyCourses\\ThanhTH_StudentManagement - Copy\\StudentManagement.Data\\StudentManagement.Data.csproj": {
-                "projectPath": "D:\\MyCourses\\ThanhTH_StudentManagement - Copy\\StudentManagement.Data\\StudentManagement.Data.csproj"
+              "D:\\MyCourses\\ThanhTH_StudentManagements\\StudentManagement.Data\\StudentManagement.Data.csproj": {
+                "projectPath": "D:\\MyCourses\\ThanhTH_StudentManagements\\StudentManagement.Data\\StudentManagement.Data.csproj"
               }
             }
           }
@@ -52,6 +52,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -108,14 +112,14 @@
         }
       }
     },
-    "D:\\MyCourses\\ThanhTH_StudentManagement - Copy\\StudentManagement.Application\\StudentManagement.Application.csproj": {
+    "D:\\MyCourses\\ThanhTH_StudentManagements\\StudentManagement.Application\\StudentManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyCourses\\ThanhTH_StudentManagement - Copy\\StudentManagement.Application\\StudentManagement.Application.csproj",
+        "projectUniqueName": "D:\\MyCourses\\ThanhTH_StudentManagements\\StudentManagement.Application\\StudentManagement.Application.csproj",
         "projectName": "StudentManagement.Application",
-        "projectPath": "D:\\MyCourses\\ThanhTH_StudentManagement - Copy\\StudentManagement.Application\\StudentManagement.Application.csproj",
+        "projectPath": "D:\\MyCourses\\ThanhTH_StudentManagements\\StudentManagement.Application\\StudentManagement.Application.csproj",
         "packagesPath": "C:\\Users\\Kristino\\.nuget\\packages\\",
-        "outputPath": "D:\\MyCourses\\ThanhTH_StudentManagement - Copy\\StudentManagement.Application\\obj\\",
+        "outputPath": "D:\\MyCourses\\ThanhTH_StudentManagements\\StudentManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -137,8 +141,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MyCourses\\ThanhTH_StudentManagement - Copy\\StudentManagement.Data\\StudentManagement.Data.csproj": {
-                "projectPath": "D:\\MyCourses\\ThanhTH_StudentManagement - Copy\\StudentManagement.Data\\StudentManagement.Data.csproj"
+              "D:\\MyCourses\\ThanhTH_StudentManagements\\StudentManagement.Data\\StudentManagement.Data.csproj": {
+                "projectPath": "D:\\MyCourses\\ThanhTH_StudentManagements\\StudentManagement.Data\\StudentManagement.Data.csproj"
               }
             }
           }
@@ -172,14 +176,14 @@
         }
       }
     },
-    "D:\\MyCourses\\ThanhTH_StudentManagement - Copy\\StudentManagement.Data\\StudentManagement.Data.csproj": {
+    "D:\\MyCourses\\ThanhTH_StudentManagements\\StudentManagement.Data\\StudentManagement.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyCourses\\ThanhTH_StudentManagement - Copy\\StudentManagement.Data\\StudentManagement.Data.csproj",
+        "projectUniqueName": "D:\\MyCourses\\ThanhTH_StudentManagements\\StudentManagement.Data\\StudentManagement.Data.csproj",
         "projectName": "StudentManagement.Data",
-        "projectPath": "D:\\MyCourses\\ThanhTH_StudentManagement - Copy\\StudentManagement.Data\\StudentManagement.Data.csproj",
+        "projectPath": "D:\\MyCourses\\ThanhTH_StudentManagements\\StudentManagement.Data\\StudentManagement.Data.csproj",
         "packagesPath": "C:\\Users\\Kristino\\.nuget\\packages\\",
-        "outputPath": "D:\\MyCourses\\ThanhTH_StudentManagement - Copy\\StudentManagement.Data\\obj\\",
+        "outputPath": "D:\\MyCourses\\ThanhTH_StudentManagements\\StudentManagement.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -217,6 +221,14 @@
               "target": "Package",
               "version": "[11.9.1, )"
             },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.1.31, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.17, )"
@@ -238,6 +250,10 @@
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[8.0.5, )"
             }
           },
           "imports": [

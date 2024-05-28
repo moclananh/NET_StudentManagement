@@ -12,9 +12,8 @@ namespace StudentManagement.Data.FluentValidations
     {
         public AppUserValidation()
         {
-            RuleFor(x => x.UserName).NotEmpty();
-            RuleFor(x => x.Email).NotEmpty().WithMessage("Please specify a first name");
-            RuleFor(x => x.Password).Length(20, 250);
+            RuleFor(x => x.PhoneNumber).NotEmpty().WithMessage("Not Empty");
+
         }
     }
 }

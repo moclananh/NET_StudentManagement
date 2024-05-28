@@ -10,18 +10,6 @@ namespace StudentManagement.Data.FluentConfigurations
         {
             // Set table name
             builder.ToTable("AppUsers");
-            // Configure primary key
-            builder.HasKey(s => s.Id);
-
-            // Configure other properties if needed
-            builder.Property(s => s.UserName)
-                .IsRequired();
-
-            builder.Property(s => s.Password)
-                .IsRequired();
-
-            builder.Property(s => s.Email)
-                .IsRequired();
 
         }
     }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -14,6 +15,7 @@ namespace StudentManagement.APIs.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ProductsController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -24,13 +26,15 @@ namespace StudentManagement.APIs.Controllers
         }
 
         [HttpGet("GetAll")]
+        [AllowAnonymous]
         public async Task<IActionResult> GetAll([FromQuery] string keyword)
         {
             var item = await _unitOfWork.ProductService.GetAll(keyword);
             return Ok(item);
         }
 
-        [HttpGet("{productId}")]
+        [HttpGet("GetById/{productId}")]
+        [AllowAnonymous]
         public async Task<IActionResult> GetById(int productId)
         {
             var product = await _unitOfWork.ProductService.GetById(productId);
@@ -40,7 +44,7 @@ namespace StudentManagement.APIs.Controllers
         }
 
 
-        [HttpPost]
+        [HttpPost("Create")]
         public async Task<IActionResult> Create([FromBody] CreateProductRequest request)
         {
             if (!ModelState.IsValid)
@@ -53,7 +57,7 @@ namespace StudentManagement.APIs.Controllers
             return Ok(result);
         }
 
-        [HttpPut("{productId}")]
+        [HttpPut("Update/{productId}")]
         public async Task<IActionResult> Update([FromRoute] int productId, [FromBody] UpdateProductRequest request)
         {
             if (!ModelState.IsValid)
@@ -67,7 +71,7 @@ namespace StudentManagement.APIs.Controllers
             return Ok();
         }
 
-        [HttpDelete("{productId}")]
+        [HttpDelete("Delete/{productId}")]
         public async Task<IActionResult> Delete(int productId)
         {
             var affectedResult = await _unitOfWork.ProductService.Delete(productId);
@@ -76,7 +80,7 @@ namespace StudentManagement.APIs.Controllers
             return Ok();
         }
 
-        [HttpPut("{id}/categories")]
+        [HttpPut("Assign/{id}/categories")]
         public async Task<IActionResult> CategoryAssign(int id, [FromBody] CategoryAssignRequest request)
         {
             if (!ModelState.IsValid)

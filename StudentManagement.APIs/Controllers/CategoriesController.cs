@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -15,6 +16,7 @@ namespace StudentManagement.APIs.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CategoriesController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -25,13 +27,15 @@ namespace StudentManagement.APIs.Controllers
         }
 
         [HttpGet("GetAll")]
+        [AllowAnonymous]
         public async Task<IActionResult> GetAll([FromQuery] string keyword)
         {
             var item = await _unitOfWork.CategoryService.GetAll(keyword);
             return Ok(item);
         }
 
-        [HttpGet("{categoryId}")]
+        [HttpGet("GetById/{categoryId}")]
+        [AllowAnonymous]
         public async Task<IActionResult> GetById(int categoryId)
         {
             var cat = await _unitOfWork.CategoryService.GetById(categoryId);
@@ -41,7 +45,7 @@ namespace StudentManagement.APIs.Controllers
         }
 
 
-        [HttpPost]
+        [HttpPost("Create")]
         public async Task<IActionResult> Create([FromBody] CreateCategoryRequest request)
         {
             if (!ModelState.IsValid)
@@ -54,7 +58,7 @@ namespace StudentManagement.APIs.Controllers
             return Ok(result);
         }
 
-        [HttpPut("{categoryId}")]
+        [HttpPut("Update/{categoryId}")]
         public async Task<IActionResult> Update([FromRoute] int categoryId, [FromBody] UpdateCategoryRequest request)
         {
             if (!ModelState.IsValid)
@@ -68,7 +72,7 @@ namespace StudentManagement.APIs.Controllers
             return Ok();
         }
 
-        [HttpDelete("{categoryId}")]
+        [HttpDelete("Delete/{categoryId}")]
         public async Task<IActionResult> Delete(int categoryId)
         {
             var affectedResult = await _unitOfWork.CategoryService.Delete(categoryId);

@@ -28,7 +28,7 @@ namespace StudentManagement.APIs.Controllers
 
         [HttpGet("GetAll")]
         [AllowAnonymous]
-        public async Task<IActionResult> GetAll([FromQuery] string keyword)
+        public async Task<IActionResult> GetAll([FromQuery] string? keyword)
         {
             var item = await _unitOfWork.CategoryService.GetAll(keyword);
             return Ok(item);
@@ -40,7 +40,7 @@ namespace StudentManagement.APIs.Controllers
         {
             var cat = await _unitOfWork.CategoryService.GetById(categoryId);
             if (cat == null)
-                return BadRequest("Cannot find product");
+                return BadRequest("Id Not Found");
             return Ok(cat);
         }
 

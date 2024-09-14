@@ -506,3 +506,5 @@ D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.APIs\obj\Debug\net5.0\
 D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.APIs\obj\Debug\net5.0\StudentManagement.APIs.genruntimeconfig.cache
 D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.APIs\obj\Debug\net5.0\ref\StudentManagement.APIs.dll
 D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.APIs\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.APIs\bin\Debug\net5.0\AutoMapper.dll
+D:\MyCourses\ThanhTH_StudentManagements\StudentManagement.APIs\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

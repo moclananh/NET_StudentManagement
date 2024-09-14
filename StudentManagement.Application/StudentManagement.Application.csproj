@@ -1,12 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
 
- 
-  <ItemGroup>
-    <ProjectReference Include="..\StudentManagement.Data\StudentManagement.Data.csproj" />
-  </ItemGroup>
 
+	<ItemGroup>
+		<ProjectReference Include="..\StudentManagement.Data\StudentManagement.Data.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="12.0.1" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+	</ItemGroup>
 </Project>

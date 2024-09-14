@@ -1,7 +1,7 @@
 ---
 Author: Mla.dev
-Last Changes: 2:10 29/05/2024
-Description changes: Update authorization | Add Postman custome
+Last Changes: 11:08 pm 14/09/2024
+Description changes: Add AutoMapper for Product
 #----#
 ---
 
@@ -11,6 +11,7 @@ Technical applying
 2. DDD structure
 3. UnitOfWork Design Pattern
 4. EF
+5. AutoMapper
 
 ---
 

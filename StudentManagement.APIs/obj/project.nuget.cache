@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dlKAuZzEvpE62NqXEUFz+zGOCUZad/YVg21RQXRC2kzgHxNaBQqvbOqNjWvlNVmKkVZjwSjDZCXrXtOyZ30znQ==",
+  "dgSpecHash": "g2SvLAnIUl6D7GdsM4Bhb1Go4sEVQWdzLbiIX3HMUeMe2PJrhkqwCTIq0yYxSyay3VZAHNoqSRYh7eGvTE1Zhw==",
   "success": true,
   "projectFilePath": "D:\\MyCourses\\ThanhTH_StudentManagements\\StudentManagement.APIs\\StudentManagement.APIs.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Kristino\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Kristino\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\Kristino\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
     "C:\\Users\\Kristino\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Kristino\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.1.1\\microsoft.aspnetcore.authentication.2.1.1.nupkg.sha512",

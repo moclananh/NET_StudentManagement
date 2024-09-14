@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "eojZ5VIu38t8LNz7d9XsVIBD9CpEEQnrytkpoUkBPLbwovAyG+SzyT6l8HT1goih94SePXdYRrHTiVP1AVuaQA==",
+  "dgSpecHash": "n5zeceLhGOYadSYzld/JMNsOnibM04XW1k2rmj3ovBHq7uyf8TsKTq21+lGpdOSca5QZ0yH2rWzLTW/3ow55SA==",
   "success": true,
   "projectFilePath": "D:\\MyCourses\\ThanhTH_StudentManagements\\StudentManagement.Application\\StudentManagement.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Kristino\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Kristino\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\Kristino\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
     "C:\\Users\\Kristino\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.1.1\\microsoft.aspnetcore.authentication.2.1.1.nupkg.sha512",
     "C:\\Users\\Kristino\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.1.1\\microsoft.aspnetcore.authentication.abstractions.2.1.1.nupkg.sha512",
@@ -22,7 +24,7 @@
     "C:\\Users\\Kristino\\.nuget\\packages\\microsoft.aspnetcore.identity\\2.1.31\\microsoft.aspnetcore.identity.2.1.31.nupkg.sha512",
     "C:\\Users\\Kristino\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.17\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.17.nupkg.sha512",
     "C:\\Users\\Kristino\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.1.1\\microsoft.aspnetcore.webutilities.2.1.1.nupkg.sha512",
-    "C:\\Users\\Kristino\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Kristino\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Kristino\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\Kristino\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
     "C:\\Users\\Kristino\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.17\\microsoft.entityframeworkcore.5.0.17.nupkg.sha512",

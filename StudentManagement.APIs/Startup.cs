@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using StudentManagement.Application;
+using StudentManagement.Application.AutoMapper;
 using StudentManagement.Application.Categories;
 using StudentManagement.Application.EmailService;
 using StudentManagement.Application.Products;
@@ -43,6 +44,9 @@ namespace StudentManagement.APIs
             services.AddIdentity<AppUser, AppRole>()
                            .AddEntityFrameworkStores<ApplicationDbContext>()
                            .AddDefaultTokenProviders();
+
+            //setting for autoMapper
+            services.AddAutoMapper(typeof(MapperConfiguration).Assembly);
 
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddTransient<IProductService, ProductService>();
